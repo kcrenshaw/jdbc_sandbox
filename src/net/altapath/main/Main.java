@@ -1,9 +1,13 @@
 package net.altapath.main;
 
+import net.altapath.jdbc.ContactDao;
+
 public class Main {
 	
 	public static void main(String[] args){
-		System.out.println("woohoo!");
+		ContactDao dao = new ContactDao();
+		dao.createContact(null);
+		System.out.println("Success!");
 	}
 
 }

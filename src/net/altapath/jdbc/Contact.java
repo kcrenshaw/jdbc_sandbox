@@ -37,13 +37,5 @@ public class Contact {
   public void setPhoneNumber(String phoneNumber) {
     this.phoneNumber = phoneNumber;
   }
-  
-  private class ContactMapper {
-    
-    private static final String STMT_LOAD_CONTACT = "";
-    private static final String STMT_UPDATE_CONTACT = "";
-    private static final String STMT_DELETE_CONTACT = "";
-    
-    
-  }
+
 }

@@ -1,12 +1,12 @@
 package net.altapath.main;
 
-import net.altapath.jdbc.ContactDao;
+import net.altapath.jdbc.ContactsDbSetup;
 
 public class Main {
 	
 	public static void main(String[] args){
-		ContactDao dao = new ContactDao();
-		dao.createContact(null);
+		ContactsDbSetup setup = new ContactsDbSetup();
+		setup.CreateContactsDb();
 		System.out.println("Success!");
 	}
 

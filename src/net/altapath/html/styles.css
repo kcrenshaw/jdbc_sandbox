@@ -1,0 +1,7 @@
+
+.clearfix { clear:both; }
+
+#container { width:900px; background-color:beige; }
+
+.feature_container { padding:5px; }
+.feature { display:inline-block; width:290px; background-color:gray; }
